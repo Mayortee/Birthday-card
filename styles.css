@@ -1,0 +1,56 @@
+.birthday {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
+    background: #a2d2ff;
+  }
+  .img{
+    width: 250px;
+    border: 7px solid #EFB0C9;
+    border-radius: 125px;
+  }
+  .h1, h2, h4 {
+    text-shadow: 0px 0px 1px black;
+  }
+  #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h2, h4{
+    background: #EFB0C9;
+  }
+  #bday-age {
+    border: 0px solid #EFB0C9;
+   padding: 5px 10px;
+    border-radius: 6px;
+  }
+  #bday-date {
+    border: 0px solid #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 6px;
+  }
+  .gift-section {
+    margin-top: 50px
+  }
+  .gift-title {
+    background: #a2d2ff;
+  }
+  .gift-hint {
+    margin-top: 0px;
+  }
+  .gift-img {
+    border: 6px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url("https://m.media-amazon.com/images/I/61LJVL2gFTL._AC_SX425_.jpg");
+   background-size: cover; 
+      
+  }
+  .gift-img:hover{
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/1034704687/display_1500/stock-vector-open-gift-box-with-red-bow-isolated-on-white-illustration-isolated-on-a-transparent-background-1034704687.jpg");
+   background-size: cover; 
+  }
